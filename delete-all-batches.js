@@ -1,3 +1,4 @@
+// Note: X may rate-limit deletions after approximately 200 tweets, with an observed cooldown of around 600 seconds (10 minutes). Both figures are estimates, not fixed API limits.
 // Run from the X browser console while logged in. Deletes posts, replies and reposts.
 // X changes its internal GraphQL requests; visit your Posts, Replies and Reposts tabs
 // first so their current request parameters are available to this script.
